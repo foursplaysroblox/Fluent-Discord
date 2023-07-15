@@ -180,11 +180,10 @@
     }
     // No Spotify icon available, so using a blank
     &[id^="user-context-spotify-play-"]::before{
-        content: "\E9CE"; // Unknown
-        visibility: hidden;
+        content: "\E102"; // Play
     }
     &[id^="user-context-spotify-sync-"]::before{
-        content: "\E102"; // Play
+        content: "\E189"; // Audio
     }
     // Options added in group DMs
     // Start a call and have a user not connect to reveal the next 2 options
@@ -212,6 +211,9 @@
     }
     &[id="guild-header-popout-invite-people"]::before{
         content: "\E1E2"; // AddFriend
+    }
+    &[id="guild-header-popout-invite-guest"]::before{
+        content: "\EE57"; // GuestUser
     }
     &[id="guild-header-popout-settings"]::before{
         content: "\E115"; // Setting
@@ -515,6 +517,9 @@
         content: "\E107"; // Delete
     }
     &[id="message-copy"]::before{
+        content: "\E16F"; // Copy
+    }
+    &[id="message-copy-text"]::before{
         content: "\E16F"; // Copy
     }
     &[id="message-copy-image"]::before{

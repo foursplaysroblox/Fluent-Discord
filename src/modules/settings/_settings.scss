@@ -10,7 +10,8 @@
     }
     .contentColumn-1C7as6,
     .customColumn-2n-oKU{
-        max-width: 900px;
+        max-width: 1000px;
+        padding: 44px 32px;
     }
 
     // Close button
@@ -31,8 +32,9 @@
     }
 
     // Title
-    .sectionTitle-3j2YI1{
-        h1{
+    .sectionTitle-LdcnyP{
+        .title-lXcL8p{
+            margin-bottom: 32px;
             @include TypeTitle;
         }
     }
